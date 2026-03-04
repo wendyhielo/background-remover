@@ -10,7 +10,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://wendyhielo.github.io/background-remover/"
+        "https://wendyhielo.github.io"
 
     ],
     allow_methods=["POST"],
